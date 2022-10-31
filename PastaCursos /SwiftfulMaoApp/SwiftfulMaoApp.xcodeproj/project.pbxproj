@@ -1,0 +1,394 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D44A4CD028C139C2004E41D2 /* LocationsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44A4CCF28C139C2004E41D2 /* LocationsListView.swift */; };
+		D45E8CF628B8180200E5D93A /* LocationsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45E8CF528B8180200E5D93A /* LocationsViewModel.swift */; };
+		D490B3C928B6B09800659DC7 /* SwiftfulMaoAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D490B3C828B6B09800659DC7 /* SwiftfulMaoAppApp.swift */; };
+		D490B3CB28B6B09800659DC7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D490B3CA28B6B09800659DC7 /* ContentView.swift */; };
+		D490B3D028B6B09900659DC7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D490B3CF28B6B09900659DC7 /* Preview Assets.xcassets */; };
+		D490B3D728B6B10A00659DC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D490B3D628B6B10A00659DC7 /* Assets.xcassets */; };
+		D490B3DC28B6B83600659DC7 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = D490B3DB28B6B83600659DC7 /* Location.swift */; };
+		D490B3E028B6BEDC00659DC7 /* LocationsDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D490B3DF28B6BEDC00659DC7 /* LocationsDataService.swift */; };
+		D490B3E228B7BB2B00659DC7 /* LocationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D490B3E128B7BB2A00659DC7 /* LocationsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D44A4CCF28C139C2004E41D2 /* LocationsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsListView.swift; sourceTree = "<group>"; };
+		D45E8CF528B8180200E5D93A /* LocationsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsViewModel.swift; sourceTree = "<group>"; };
+		D490B3C528B6B09800659DC7 /* SwiftfulMaoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftfulMaoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D490B3C828B6B09800659DC7 /* SwiftfulMaoAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftfulMaoAppApp.swift; sourceTree = "<group>"; };
+		D490B3CA28B6B09800659DC7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D490B3CF28B6B09900659DC7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D490B3D628B6B10A00659DC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D490B3DB28B6B83600659DC7 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		D490B3DF28B6BEDC00659DC7 /* LocationsDataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationsDataService.swift; sourceTree = "<group>"; };
+		D490B3E128B7BB2A00659DC7 /* LocationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D490B3C228B6B09700659DC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D490B3BC28B6B09700659DC7 = {
+			isa = PBXGroup;
+			children = (
+				D490B3C728B6B09800659DC7 /* SwiftfulMaoApp */,
+				D490B3C628B6B09800659DC7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D490B3C628B6B09800659DC7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D490B3C528B6B09800659DC7 /* SwiftfulMaoApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D490B3C728B6B09800659DC7 /* SwiftfulMaoApp */ = {
+			isa = PBXGroup;
+			children = (
+				D490B3C828B6B09800659DC7 /* SwiftfulMaoAppApp.swift */,
+				D490B3CA28B6B09800659DC7 /* ContentView.swift */,
+				D490B3DE28B6BCB200659DC7 /* Data Services */,
+				D490B3D928B6B2B100659DC7 /* Views */,
+				D490B3DA28B6B2BE00659DC7 /* ViewModels */,
+				D490B3D828B6B2A500659DC7 /* Models */,
+				D490B3D628B6B10A00659DC7 /* Assets.xcassets */,
+				D490B3CE28B6B09900659DC7 /* Preview Content */,
+			);
+			path = SwiftfulMaoApp;
+			sourceTree = "<group>";
+		};
+		D490B3CE28B6B09900659DC7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D490B3CF28B6B09900659DC7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D490B3D828B6B2A500659DC7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D490B3DB28B6B83600659DC7 /* Location.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D490B3D928B6B2B100659DC7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D490B3E128B7BB2A00659DC7 /* LocationsView.swift */,
+				D44A4CCF28C139C2004E41D2 /* LocationsListView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D490B3DA28B6B2BE00659DC7 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				D45E8CF528B8180200E5D93A /* LocationsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		D490B3DE28B6BCB200659DC7 /* Data Services */ = {
+			isa = PBXGroup;
+			children = (
+				D490B3DF28B6BEDC00659DC7 /* LocationsDataService.swift */,
+			);
+			path = "Data Services";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D490B3C428B6B09700659DC7 /* SwiftfulMaoApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D490B3D328B6B09900659DC7 /* Build configuration list for PBXNativeTarget "SwiftfulMaoApp" */;
+			buildPhases = (
+				D490B3C128B6B09700659DC7 /* Sources */,
+				D490B3C228B6B09700659DC7 /* Frameworks */,
+				D490B3C328B6B09700659DC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftfulMaoApp;
+			productName = SwiftfulMaoApp;
+			productReference = D490B3C528B6B09800659DC7 /* SwiftfulMaoApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D490B3BD28B6B09700659DC7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					D490B3C428B6B09700659DC7 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+				};
+			};
+			buildConfigurationList = D490B3C028B6B09700659DC7 /* Build configuration list for PBXProject "SwiftfulMaoApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D490B3BC28B6B09700659DC7;
+			productRefGroup = D490B3C628B6B09800659DC7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D490B3C428B6B09700659DC7 /* SwiftfulMaoApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D490B3C328B6B09700659DC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D490B3D728B6B10A00659DC7 /* Assets.xcassets in Resources */,
+				D490B3D028B6B09900659DC7 /* Preview Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D490B3C128B6B09700659DC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D490B3E028B6BEDC00659DC7 /* LocationsDataService.swift in Sources */,
+				D44A4CD028C139C2004E41D2 /* LocationsListView.swift in Sources */,
+				D45E8CF628B8180200E5D93A /* LocationsViewModel.swift in Sources */,
+				D490B3CB28B6B09800659DC7 /* ContentView.swift in Sources */,
+				D490B3E228B7BB2B00659DC7 /* LocationsView.swift in Sources */,
+				D490B3DC28B6B83600659DC7 /* Location.swift in Sources */,
+				D490B3C928B6B09800659DC7 /* SwiftfulMaoAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D490B3D128B6B09900659DC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D490B3D228B6B09900659DC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D490B3D428B6B09900659DC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftfulMaoApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.luana.SwiftfulMaoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D490B3D528B6B09900659DC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftfulMaoApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.luana.SwiftfulMaoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D490B3C028B6B09700659DC7 /* Build configuration list for PBXProject "SwiftfulMaoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D490B3D128B6B09900659DC7 /* Debug */,
+				D490B3D228B6B09900659DC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D490B3D328B6B09900659DC7 /* Build configuration list for PBXNativeTarget "SwiftfulMaoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D490B3D428B6B09900659DC7 /* Debug */,
+				D490B3D528B6B09900659DC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D490B3BD28B6B09700659DC7 /* Project object */;
+}
